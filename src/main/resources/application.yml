@@ -3,7 +3,7 @@ spring:
     name: order-service
 
   datasource:
-    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB}
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:ordpostgres}
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
 
